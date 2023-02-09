@@ -26,7 +26,7 @@ public class Sieve {
 			
 			for(int b=a*2; b<array.length; b+=a)
 			{
-				array [a]=false;
+				array [b]=false;
 				//System.out.println(b);
 			}
 		}
